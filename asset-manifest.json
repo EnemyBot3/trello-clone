@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/trello-clone/static/css/main.50062159.css",
-    "main.js": "/trello-clone/static/js/main.1ecaccbb.js",
+    "main.js": "/trello-clone/static/js/main.123754c3.js",
     "static/media/task.jpg": "/trello-clone/static/media/task.2e999f83ca17f8bddb25.jpg",
     "static/media/task3.jpg": "/trello-clone/static/media/task3.2e904a60b98b922a72b4.jpg",
     "static/media/bg.jpg": "/trello-clone/static/media/bg.2c1a113f668103acb01e.jpg",
     "static/media/task2.jpg": "/trello-clone/static/media/task2.b96d308694d5107c9e96.jpg",
     "index.html": "/trello-clone/index.html",
     "main.50062159.css.map": "/trello-clone/static/css/main.50062159.css.map",
-    "main.1ecaccbb.js.map": "/trello-clone/static/js/main.1ecaccbb.js.map"
+    "main.123754c3.js.map": "/trello-clone/static/js/main.123754c3.js.map"
   },
   "entrypoints": [
     "static/css/main.50062159.css",
-    "static/js/main.1ecaccbb.js"
+    "static/js/main.123754c3.js"
   ]
 }

@@ -117,7 +117,7 @@ const Home = () => {
 				onDragStart={(e) => setIsDragging(e.type === "column")}
 				onDragEnd={(result: any) => {
 					setIsDragging(false);
-					onDragEnd(result, columns, setColumns, setColumnOrder, handleDeleteColumn, handleDeleteTask)}
+					onDragEnd(result, columns, setColumns, setColumnOrder, handleDeleteColumn)}
 				}
 			>
 				<Droppable droppableId="columns" direction="horizontal" type="column">
@@ -228,7 +228,7 @@ const Home = () => {
 								"fixed bottom-10 right-10",
 								"px-5 py-3 tracking-wide",
 								"bg-red-500 text-white font-bold rounded-md shadow-lg",
-								{"hidden": !isDragging}
+								{"opacity-0": !isDragging}
 							)}
 						>
 							<TrashBin color="white" style={{scale: '1.2'}}/>

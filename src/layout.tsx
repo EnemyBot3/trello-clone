@@ -1,9 +1,9 @@
-import { Outlet } from "react-router";
 import {default as cn} from "classnames";
 import Navbar from "./components/Navbar";
 import SideBar from "./components/SideBar";
 import { useState } from "react";
 import * as motion from "motion/react-client"
+import Home from "./pages/Boards";
 
 const Layout = () => {
 
@@ -21,7 +21,7 @@ const Layout = () => {
                 	"w-full h-full overflow-y-auto",
             	)
 			}>
-				<Outlet />
+				<Home />
 			</motion.div>
 		</div>
 	);

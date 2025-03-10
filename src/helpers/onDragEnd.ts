@@ -5,7 +5,6 @@ export const onDragEnd = (
     setColumns: any,
     setColumnOrder: any,
     handleDeleteColumn: any,
-    handleDeleteTask: any
 ) => {
     const { source, destination, draggableId, type } = result;
 
@@ -13,11 +12,8 @@ export const onDragEnd = (
 
 	// Check if dropped in the delete zone
 	if (destination.droppableId === "delete-zone") {
-        console.log('here', type)
 		if (type === "column") {
 			handleDeleteColumn(draggableId);
-		} else {
-			handleDeleteTask(draggableId, source.droppableId);
 		}
 		return;
 	}

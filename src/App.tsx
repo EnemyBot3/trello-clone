@@ -1,13 +1,10 @@
-import React from 'react';
-import { useRoutes } from 'react-router';
-import routes from './routes';
+import Layout from './layout';
 
 function App() {
-  const element = useRoutes(routes);
 
   return (
     <div>
-      {element}
+      <Layout />
     </div>
   );
 }
